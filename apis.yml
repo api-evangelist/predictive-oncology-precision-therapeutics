@@ -1,8 +1,24 @@
 aid: predictive-oncology-precision-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/predictive-oncology-precision-therapeutics.png
 name: Predictive Oncology  (Precision Therapeutics)
-description: 'Predictive Oncology  (Precision Therapeutics) is a company surfaced as a portfolio company
-  of bain-capital-ventures and added to the API Evangelist network as a stub for enrichment. Sector: healthcare.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: 'Predictive Oncology (Precision Therapeutics) is an AI-driven drug-discovery and precision-oncology
+  company. It combines a proprietary biobank of 150,000+ tumor samples with machine-learning models to predict
+  patient and drug responses, develops 3D in vitro tumor models that simulate human tissue environments for
+  drug testing, and offers tumor drug-response testing and genomic profiling to support personalized cancer
+  treatment and improve the probability of success in clinical trials. The company engages partners through
+  direct B2B collaboration and publishes no public developer API, SDK, or developer portal. Surfaced as a
+  portfolio company of Bain Capital Ventures and profiled in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-precision-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Oncology
+- Drug Discovery
+- Artificial Intelligence
+- Machine Learning
+- Precision Medicine
+- Biotechnology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/predictive-oncology-precision-therapeutics-domain-security.yml
 - type: Website
   url: https://predictive-oncology.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
