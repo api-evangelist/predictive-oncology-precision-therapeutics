@@ -1,0 +1,32 @@
+# Front Door AI Index — predictive-oncology-precision-therapeutics — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: predictive-oncology-precision-therapeutics
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: predictive-oncology.com
+  final_host: predictive-oncology.com
+  ownership: own
+  owner: predictive-oncology-precision-therapeutics
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 21
+  host_score: 21
+  density: 3.52
+  words: 5961
+  tiers:
+    agentic: 0
+    core: 21
+    model: 0
+  ambiguous: 52
+  top_terms:
+    predictive: 47
+    AI: 9
+    machine learning: 8
+    ML: 3
+    automation: 2
+    intelligence: 2
+    artificial intelligence: 1
+    smart: 1
